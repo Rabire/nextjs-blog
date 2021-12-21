@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import { ImageComponent } from "../components/ImageComponent";
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
             <a>this page!</a>
           </Link>
         </h1>
+
+        <ImageComponent />
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
